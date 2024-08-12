@@ -19,6 +19,10 @@
     align-items: center;
 }
 
+.text-align {
+    text-align: center;
+}
+
 /* shared styles end */
 
 /* navigation styles start */
@@ -50,11 +54,10 @@ nav ul li a {
 /* header section start */
 header {
     background: url('../asstes/Background.png');
-    background-position: center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 95vh;
 }
 
 /* header section end */
@@ -62,14 +65,15 @@ header {
 /* banner-section styles start */
 .banner-content-text {
     width: 650px;
-    margin: 80px 200px;
+    margin: 0 200px;
 }
 
 .button {
     gap: 34px;
 }
 
-.button a {
+.button a,
+.planner-btn {
     border-radius: 4px;
     background: rgb(0, 99, 229);
     padding: 22px 75px;
@@ -92,9 +96,11 @@ header {
     font-family: Poppins;
     padding: 24px 0;
 }
+
 .banner-text p a {
     color: var(--color);
 }
+
 .banner-text h3 {
     color: rgb(192, 192, 192);
     font-size: 1rem;
@@ -104,15 +110,104 @@ header {
     text-align: center;
     padding-top: 2rem;
 }
-.banner-alt-info{
+
+.banner-alt-info {
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 120px;
 }
-.banner-alt-info a{
+
+.banner-alt-info a {
     color: #F9F9F9;
     font-size: var(--basic-font-size);
     letter-spacing: 0.3px;
     line-height: 26px;
     text-decoration: none;
 }
+
 /* banner-section styles end */
+
+/* main section style start */
+main {
+    background: #040714;
+}
+
+main section {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+/* main section style end */
+
+/* trend section styles start */
+.trend-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.trend-content-text {
+    justify-content: center;
+    gap: 23px;
+}
+
+.trend-content-text h3 {
+    color: var(--color);
+    font-weight: normal;
+    margin-bottom: 3rem;
+}
+
+.trend-content-text h3:nth-child(1n) {
+    font-weight: 500;
+}
+
+.width {
+    border-bottom: 3px solid #fff;
+}
+
+.trend-content-image img {
+    flex: 1 1 30%;
+}
+
+.trend-content-image {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+
+/* trend section styles end */
+
+/* planner container section styls start */
+.planner-header-text-two{
+    width: 240px;
+    margin: 0 auto;
+    border-radius: 28px;
+    color: var(--color);
+    background-color: #2B2D37;
+    margin-top: 26px;
+}
+.planner-header-text-two ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+#seperat-li-color{
+    background: #0063E5;
+    padding: 8px 14px;
+    border-radius: 19px;
+}
+.planner-text-header h3 ,p{
+    color: var(--color);
+    text-align: center;
+}
+.planner-text-header p{
+    font-size: var(--basic-font-size);
+}
+.planner-text-header h3{
+    margin-top: 80px;
+    font-size: 2.75rem;
+
+}
+/* planner container section styls end */
