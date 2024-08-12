@@ -1,5 +1,118 @@
-*{
+:root {
+    --base-font-size: 1rem;
+    --medium-font-size: 2rem;
+    --basic-font-size: 1.125rem;
+    --color: #fff;
+    --description-color: rgb(192, 192, 192);
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
+
+/* shared styles start */
+.display-flex {
+    display: flex;
+    align-items: center;
+}
+
+/* shared styles end */
+
+/* navigation styles start */
+nav {
+    text-align: right;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #F9F9F9;
+    padding: 15px 17px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+/* navigation styles end */
+
+
+/* header section start */
+header {
+    background: url('../asstes/Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+}
+
+/* header section end */
+
+/* banner-section styles start */
+.banner-content-text {
+    width: 650px;
+    margin: 80px 200px;
+}
+
+.button {
+    gap: 34px;
+}
+
+.button a {
+    border-radius: 4px;
+    background: rgb(0, 99, 229);
+    padding: 22px 75px;
+    gap: 34px;
+    margin-top: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+.banner-text p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: var(--description-color);
+    font-family: Poppins;
+    padding: 24px 0;
+}
+.banner-text p a {
+    color: var(--color);
+}
+.banner-text h3 {
+    color: rgb(192, 192, 192);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.2px;
+    text-align: center;
+    padding-top: 2rem;
+}
+.banner-alt-info{
+    text-align: center;
+    padding-top: 30px;
+}
+.banner-alt-info a{
+    color: #F9F9F9;
+    font-size: var(--basic-font-size);
+    letter-spacing: 0.3px;
+    line-height: 26px;
+    text-decoration: none;
+}
+/* banner-section styles end */
