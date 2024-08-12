@@ -1,0 +1,71 @@
+@media screen and (max-width: 576px) {
+    .card-container,
+    .highlight-container{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .button{
+        gap: 10px;
+    }
+    .banner-content-text,
+    .banner-text{
+        width: calc(100% - 15px);
+        margin: 8px;
+    }
+    nav ul{
+        padding: 20px;
+    }
+    .banner-content-text img{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .button a ,
+    .planner-btn{
+        padding: 11px 31px;
+        font-size: 12px;
+    }
+    header{
+        background-position: center;
+    }
+    .barnd-logo{
+        text-align: center;
+    }
+    .trend-content-text h3,
+    .high-light-content-text h3,
+    .services-content h3{
+        font-size: 1.75rem;
+    }
+    .trend-content-image img,
+    .high-light-content-img img{
+        width: 100%;
+    }
+    .card,
+    .high-light-content-text,
+    .card-container,
+    .services-container{
+        width: 95%;
+        height: auto;
+    }
+    .card-sub-content-two,
+    .card-sub-content{
+        padding: 10px 29px;
+    }
+    main section{
+        margin-bottom: 40px;
+    }
+    .planner-container{
+        padding-bottom: 55px;
+    }
+    .services-container{
+        margin-top: 40px;
+    }
+    .trend-content-text h3{
+        font-size: 14px;
+    }
+    footer{
+        padding-top: 40px;
+    }
+    .banner-alt-info{
+        padding-bottom: 80px;
+    }
+}
