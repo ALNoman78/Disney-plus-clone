@@ -279,11 +279,13 @@ main section {
 }
 /* high-light-content-text section styles end */
 
-/*  */
+/*  toggle section styles start*/
+
 .services-container {
     width: 80%;
     margin: 0 auto;
     margin-top: 120px;
+    padding-bottom: 50px;
 }
 
 .services-content h3 {
@@ -307,6 +309,8 @@ main section {
     margin-top: 10px;
     color: var(--color);
     font-size: 1.4rem;
+    border-top: 2px solid rgb(114, 108, 108);
+    margin-bottom: 8px;
 }
 
 .services-sub-content {
@@ -336,4 +340,32 @@ main section {
     margin-top: 25px;
     display: block;
 }
-/*  */
+/* toggle section styles end */
+
+/* footer section styles start */
+footer{
+    width: 100%;
+    background: #040714;
+    padding-top: 120px;
+}
+.footer-content-info ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footer-content-info ul li{
+    color: var(--description-color);
+    cursor: pointer;
+}
+.footer-last-content p{
+    color: var(--description-color);
+    margin-top: 50px;
+    padding-bottom: 40px;
+    line-height: 36px;
+}
+/* footer section styles end */
