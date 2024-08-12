@@ -178,6 +178,9 @@ main section {
 /* trend section styles end */
 
 /* planner container section styls start */
+.planner-container{
+    padding-bottom: 100px;
+}
 .planner-header-text-two{
     width: 240px;
     margin: 0 auto;
@@ -200,7 +203,6 @@ main section {
 }
 .planner-text-header h3 ,p{
     color: var(--color);
-    text-align: center;
 }
 .planner-text-header p{
     font-size: var(--basic-font-size);
@@ -208,6 +210,130 @@ main section {
 .planner-text-header h3{
     margin-top: 80px;
     font-size: 2.75rem;
+}
+.card-container{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+.card-sub-content , .card-sub-content-two{
+    width: 100%;
+    padding: 28px 45px;
+}
+.planner-btn{
+    margin-top: 0;
+    font-size: var(--basic-font-size);
+}
+.card{
+    flex-direction: column;
+    justify-content: space-between;
+    width: 380px;
+    height: 520px;
+    border: 1px solid rgb(192, 192, 192);
+}
 
+.card-sub-content h3{
+    width: 110px;
+    color: var(--color);
+    margin-bottom: 28px;
+}
+.card-sub-content h3 span{
+    color: var(--description-color);
+    font-size: var(--base-font-size);
+    font-weight: normal;
+}
+.card-sub-content ul li{
+    color: var(--description-color);
+    font-size: var(--base-font-size);
+    margin-bottom: 17px;
+}
+.text-sub-co-content{
+    margin-top: 30px;
+    font-size: 0.85rem;
+    color: var(--description-color);
 }
 /* planner container section styls end */
+
+
+/* high-light-content-text section styles start */
+.highlight-container{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.high-light-content-text{
+    width: 600px;
+}
+.high-light-content-text h3{
+    font-size: 2.5rem;
+    color: var(--color);
+}
+.high-light-content-text ul li{
+    color: var(--description-color);
+    margin-bottom: 30px;
+    font-size: var(--basic-font-size);
+    margin-top: 24px;
+}
+/* high-light-content-text section styles end */
+
+/*  */
+.services-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.services-content h3 {
+    font-size: 2.85rem;
+    text-align: center;
+    color: var(--color);
+}
+
+.box {
+    color: var(--color);
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    margin: 10px;
+    cursor: pointer;
+    width: calc(100% - 17px);
+    background: #2D2D2D;
+}
+
+.hidden-text {
+    display: none;
+    margin-top: 10px;
+    color: var(--color);
+    font-size: 1.4rem;
+}
+
+.services-sub-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services-content {
+    margin-top: 25px;
+}
+
+.services-section-form>.banner-form {
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.services-section-form p {
+    font-size: 1.25rem;
+    color: var(--color);
+    margin-top: 20px;
+}
+
+.services-section-form {
+    text-align: center;
+    margin-top: 25px;
+    display: block;
+}
+/*  */
