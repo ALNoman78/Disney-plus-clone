@@ -51,24 +51,28 @@
 
 let trendVal = document.querySelector(".width-2")
 let contentDis = document.querySelector("#content-2")
-let widthContent = document.querySelector(".trend-container")
+let widthContent = document.querySelector(".trend-content-image")
+let widthONe = document.querySelector(".width")
 
 let sum = 0;
 
 trendVal.addEventListener("click",function(){
   if (sum === 0) {
     contentDis.style.display = "block";
-    widthContent.style.display = "none";
     trendVal.style.borderBottom = "3px solid red"; 
+    widthContent.style.display = "none";
+    widthONe.style.borderBottom = "none"
     console.log("Abdullah AL nOman")
     sum = 1;
   }else{
-    contentDis.style.display = "none";
+    widthONe.style.borderBottom = "3px solid white"
     trendVal.style.borderBottom = "none"; 
+    widthContent.style.display = "flex";
+    contentDis.style.display = "none";
     console.log("Abdullah");
     sum = 0;
   }
-})
+  })
 
 
 // let valueOne = document.querySelector(".width")

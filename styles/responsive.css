@@ -21,7 +21,13 @@
     }
     .button a ,
     .planner-btn{
-        padding: 11px 31px;
+        padding: 11px 25px;
+        font-size: 12px;
+    }
+    .trend-content-text{
+        gap: 19px;
+    }
+    .trend-content-text h3{
         font-size: 12px;
     }
     header{
@@ -30,7 +36,6 @@
     .barnd-logo{
         text-align: center;
     }
-    .trend-content-text h3,
     .high-light-content-text h3,
     .services-content h3{
         font-size: 1.75rem;
@@ -58,9 +63,6 @@
     }
     .services-container{
         margin-top: 40px;
-    }
-    .trend-content-text h3{
-        font-size: 14px;
     }
     footer{
         padding-top: 40px;
