@@ -164,7 +164,9 @@ main section {
 .width {
     border-bottom: 3px solid #fff;
 }
-
+.width-2{
+    cursor: pointer;
+}
 .trend-content-image img {
     flex: 1 1 30%;
 }
@@ -375,3 +377,7 @@ footer{
     line-height: 36px;
 }
 /* footer section styles end */
+
+.none{
+    display: none;
+}
