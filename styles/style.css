@@ -340,6 +340,12 @@ main section {
     margin-top: 25px;
     display: block;
 }
+#svg-img{
+    transition: transform 0.2s  ease-in-out;
+}
+#svg-img.hover-effect{
+    transform: rotate(50deg);
+}
 /* toggle section styles end */
 
 /* footer section styles start */

@@ -6,3 +6,8 @@ function toggleText(box) {
         textElement.style.display = "none";
     }
 }
+
+const button = document.getElementById("svg-img");
+button.addEventListener("click", function() {
+    this.classList.toggle("hover-effect");
+});
